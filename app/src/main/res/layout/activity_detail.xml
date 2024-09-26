@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        
+        <TextView
+            android:id="@+id/namaTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Wisata"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        
+        <ImageView
+            android:id="@+id/gambarIV"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/lokaiTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tglTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanggal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/detailTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Wisata"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+        
+    </LinearLayout>
+</ScrollView>
